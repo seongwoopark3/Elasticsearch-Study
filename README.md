@@ -22,8 +22,8 @@ Manning
 - seongwoopark: /
 - MJ111: /
 - jaemyunlee: /
-- parkwoohyun: /
-- dowonkoo
+- parkwoohyun: //
+- dowonkoo: /
 - nachwon
 
 ### 다음 스터디 공지
