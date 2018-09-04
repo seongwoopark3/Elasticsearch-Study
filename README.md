@@ -26,10 +26,18 @@ Manning
 - dowonkoo: /
 - nachwon
 
-### 다음 스터디 공지
-일시: 2018-09-04 9:00 AM
+### 불참 현황
+- seongwoopark: 병가 
+- MJ111: 
+- jaemyunlee: 
+- parkwoohyun: 
+- dowonkoo: 
+- nachwon: 병가
 
-Chapter 3 읽어오기
+### 다음 스터디 공지
+일시: 2018-09-06 9:30 AM
+
+Chapter 4 읽어오기
 
 - - -
 
