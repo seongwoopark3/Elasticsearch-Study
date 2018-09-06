@@ -3,7 +3,7 @@
 엘라스틱 서치를 잘 이해하여 업무에 적절히 활용할 수 있도록 하기 위한 스터디.
 
 ### 일시 및 장소
-매주 화, 목 9:30 AM ~ 11:00 AM  
+매주 화, 금 9:30 AM ~ 11:00 AM  
 MMT-Asia
 
 ### 교재
@@ -24,7 +24,7 @@ Manning
 - jaemyunlee: /
 - parkwoohyun: //
 - dowonkoo: /
-- nachwon
+- nachwon: /
 
 ### 불참 현황
 - seongwoopark: 병가 
@@ -35,9 +35,9 @@ Manning
 - nachwon: 병가
 
 ### 다음 스터디 공지
-일시: 2018-09-04 9:30 AM
+일시: 2018-09-11 9:30 AM
 
-Chapter 4 읽어오기
+Chapter 5 읽어오기, Chapter 4 다 못읽은 사람 읽어오기
 
 - - -
 
