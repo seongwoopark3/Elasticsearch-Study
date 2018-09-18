@@ -41,56 +41,40 @@
     }
   },
   "mappings" : {
-    "group" : {
+    "_doc" : {
       "_source" : {
         "enabled" : true
       },
-      "_all" : {
-        "enabled" : true
-      },
       "properties" : {
-        "organizer" : { "type" : "string" },
-        "name" : { "type" : "string" },
+        "join_field" : {
+          "type" : "join",
+          "relations": {"group": "event"}
+        },
         "description" : {
-          "type" : "string",
+          "type" : "text",
           "term_vector": "with_positions_offsets"
         },
+
+        "organizer" : { "type" : "text" },
+        "name" : { "type" : "text" },
         "created_on" : {
           "type" : "date",
           "format" : "yyyy-MM-dd"
         },
         "tags" : {
-          "type" : "string",
-          "index" : "analyzed",
+          "type" : "text",
           "fields": {  
             "verbatim" : {
-              "type" : "string",
-              "index" : "not_analyzed"
+              "type" : "keyword"
             }
           }
         },
-        "members" : { "type" : "string" },
-        "location_group" : { "type" : "string" }
-      }
-    },
-    "event" : {
-      "_source" : {
-        "enabled" : true
-      },
-      "_all" : {
-        "enabled" : false
-      },
-      "_parent" : {
-        "type" : "group"
-      },
-      "properties" : {
-        "host" : { "type" : "string" },
-        "title" : { "type" : "string" },
-        "description" : {
-          "type" : "string",
-          "term_vector": "with_positions_offsets"
-        },
-        "attendees" : { "type" : "string" },
+        "members" : { "type" : "text" },
+        "location_group" : { "type" : "text" },
+
+        "host" : { "type" : "text" },
+        "title" : { "type" : "text" },
+        "attendees" : { "type" : "text" },
         "date" : {
           "type" : "date",
           "format" : "date_hour_minute"
@@ -102,7 +86,7 @@
         "location_event": {
           "type" : "object",
           "properties" : {
-            "name" : { "type" : "string" },
+            "name" : { "type" : "text" },
             "geolocation" : { "type" : "geo_point" }
           }
         }
